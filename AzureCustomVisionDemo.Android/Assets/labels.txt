@@ -1,11 +1,7 @@
-Bart
-Flanders
-Hibbert
-Homer
-Krusty
-Lisa
-Marge
-Milhouse
-Mr Burns
-Negative
-Wiggum
+Cell
+Goku
+Goku Super Saiyan
+Krilin
+Piccolo
+Super Buu
+Vegeta

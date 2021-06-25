@@ -4,10 +4,10 @@ namespace AzureCustomVisionDemo
 {
     public class KeysAndUrls
     {
-        #warning You should get all this data from your own project on customvision.ai
-        public static string PredictionUrl = "";
-        public static string CustomVisionPredictionApiKey = "";
-        public static Guid ProjectId = new Guid("");
-        public static string IterationName = "";
+        
+        public static string PredictionUrl = "https://xamcustomvisionpio-prediction.cognitiveservices.azure.com/";
+        public static string CustomVisionPredictionApiKey = "b299f7937a81477cb723d8907e926a05";
+        public static Guid ProjectId = new Guid("355d88be-fd27-4837-9f09-cb2328143c7c");
+        public static string IterationName = "Iteration4";
     }
 }

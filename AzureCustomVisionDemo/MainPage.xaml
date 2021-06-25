@@ -9,8 +9,8 @@
     mc:Ignorable="d">
     <yummy:PancakeView
         BackgroundGradientAngle="45"
-        BackgroundGradientEndColor="Green"
-        BackgroundGradientStartColor="Yellow">
+        BackgroundGradientEndColor="Yellow"
+        BackgroundGradientStartColor="Red">
         <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Label
                 x:Name="DescriptionLabel"
@@ -18,15 +18,15 @@
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
                 IsVisible="False"
-                Text="Espío con mi pequeño ojo..."
-                TextColor="Green" />
+                Text="El personaje es:  "
+                TextColor="Blue" />
             <Label
                 x:Name="TagLabel"
                 FontAttributes="Bold"
                 FontSize="26"
                 HorizontalTextAlignment="Center"
                 Text="Selecciona una imagen"
-                TextColor="Green" />
+                TextColor="Blue" />
 
             <yummy:PancakeView BorderColor="Yellow" BorderThickness="2">
                 <Image
@@ -41,12 +41,12 @@
                 BackgroundColor="Yellow"
                 Clicked="Button_Local_Clicked"
                 Text="Elige Foto (local)"
-                TextColor="Green" />
+                TextColor="Red" />
             <Button
                 BackgroundColor="Yellow"
                 Clicked="Button_Azure_Clicked"
                 Text="Elige Foto (Azure)"
-                TextColor="Green" />
+                TextColor="Red" />
         </StackLayout>
     </yummy:PancakeView>
 </ContentPage>
